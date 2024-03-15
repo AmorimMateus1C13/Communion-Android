@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Communion-Android</string>
+    <string name="underlined_dynamic_text"><u>%s</u></string>
+    <string name="loginLabel">Login</string>
+    <string name="passwordLabel">Senha</string>
+    <string name="checkBoxTitle">Lembrar de mim</string>
+    <string name="forgottenUnderlined"><u>esqueceu a senha?</u></string>
+    <string name="registerTitle">Criar uma conta</string>
+    <string name="loginTitle">Entrar</string>
+
+</resources>

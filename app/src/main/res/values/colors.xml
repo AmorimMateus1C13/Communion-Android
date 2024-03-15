@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="firstBackground">#071952</color>
+    <color name="secondBackGround">#0b666a</color>
+    <color name="thirdBackGround">#35a29f</color>
+    <color name="fortyBackGround">#97feed</color>
+    <color name="cardPrimary">#78a083</color>
+</resources>

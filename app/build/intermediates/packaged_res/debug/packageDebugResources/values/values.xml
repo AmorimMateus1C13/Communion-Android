@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="cardPrimary">#78a083</color>
+    <color name="firstBackground">#071952</color>
+    <color name="fortyBackGround">#97feed</color>
+    <color name="secondBackGround">#0b666a</color>
+    <color name="thirdBackGround">#35a29f</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Communion-Android</string>
+    <string name="checkBoxTitle">Lembrar de mim</string>
+    <string name="forgottenUnderlined"><u>esqueceu a senha?</u></string>
+    <string name="loginLabel">Login</string>
+    <string name="loginTitle">Entrar</string>
+    <string name="passwordLabel">Senha</string>
+    <string name="registerTitle">Criar uma conta</string>
+    <string name="underlined_dynamic_text"><u>%s</u></string>
+    <style name="Base.Theme.CommunionAndroid" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.CommunionAndroid" parent="Base.Theme.CommunionAndroid"/>
+</resources>
