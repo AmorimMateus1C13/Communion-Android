@@ -33,6 +33,9 @@ public final class FragmentLoginCardBinding implements ViewBinding {
   public final Guideline guideLineHorizontal;
 
   @NonNull
+  public final TextView loginAlert;
+
+  @NonNull
   public final EditText loginInput;
 
   @NonNull
@@ -52,13 +55,14 @@ public final class FragmentLoginCardBinding implements ViewBinding {
 
   private FragmentLoginCardBinding(@NonNull LinearLayout rootView, @NonNull Button createBtn,
       @NonNull Button forgottenBtn, @NonNull Guideline guideLineHorizontal,
-      @NonNull EditText loginInput, @NonNull TextView loginLabel, @NonNull Button nextBtn,
-      @NonNull EditText passwordInput, @NonNull TextView passwordLabel,
+      @NonNull TextView loginAlert, @NonNull EditText loginInput, @NonNull TextView loginLabel,
+      @NonNull Button nextBtn, @NonNull EditText passwordInput, @NonNull TextView passwordLabel,
       @NonNull CheckBox rememberBtn) {
     this.rootView = rootView;
     this.createBtn = createBtn;
     this.forgottenBtn = forgottenBtn;
     this.guideLineHorizontal = guideLineHorizontal;
+    this.loginAlert = loginAlert;
     this.loginInput = loginInput;
     this.loginLabel = loginLabel;
     this.nextBtn = nextBtn;
@@ -112,6 +116,12 @@ public final class FragmentLoginCardBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.loginAlert;
+      TextView loginAlert = ViewBindings.findChildViewById(rootView, id);
+      if (loginAlert == null) {
+        break missingId;
+      }
+
       id = R.id.loginInput;
       EditText loginInput = ViewBindings.findChildViewById(rootView, id);
       if (loginInput == null) {
@@ -149,8 +159,8 @@ public final class FragmentLoginCardBinding implements ViewBinding {
       }
 
       return new FragmentLoginCardBinding((LinearLayout) rootView, createBtn, forgottenBtn,
-          guideLineHorizontal, loginInput, loginLabel, nextBtn, passwordInput, passwordLabel,
-          rememberBtn);
+          guideLineHorizontal, loginAlert, loginInput, loginLabel, nextBtn, passwordInput,
+          passwordLabel, rememberBtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

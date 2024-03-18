@@ -7,4 +7,5 @@
     <color name="thirdBackGround">#35a29f</color>
     <color name="fortyBackGround">#97feed</color>
     <color name="cardPrimary">#78a083</color>
+    <color name="alertError">#A0153E</color>
 </resources>

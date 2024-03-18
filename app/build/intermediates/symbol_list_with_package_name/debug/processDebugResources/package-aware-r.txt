@@ -1348,6 +1348,7 @@ color abc_tint_spinner
 color abc_tint_switch_track
 color accent_material_dark
 color accent_material_light
+color alertError
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
 color background_floating_material_dark
@@ -2973,6 +2974,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable alert_field
 drawable avd_hide_password
 drawable avd_show_password
 drawable btn_checkbox_checked_mtrl
@@ -3329,6 +3331,7 @@ id line3
 id linear
 id listMode
 id list_item
+id loginAlert
 id loginInput
 id loginLabel
 id m3_side_sheet
@@ -3815,6 +3818,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string alertEmptyFields
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
@@ -3834,6 +3838,7 @@ string call_notification_screening_text
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
+string checkBoxPreference
 string checkBoxTitle
 string clear_text_end_icon_content_description
 string error_a11y_label
@@ -3953,6 +3958,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string preference_file_key
 string registerTitle
 string search_menu_title
 string searchbar_scrolling_view_behavior
@@ -3962,6 +3968,8 @@ string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
 string underlined_dynamic_text
+string userLogin
+string userPassword
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

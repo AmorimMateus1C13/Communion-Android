@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+color alertError
 color black
 color cardPrimary
 color firstBackground
@@ -7,6 +8,7 @@ color fortyBackGround
 color secondBackGround
 color thirdBackGround
 color white
+drawable alert_field
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable logincard
@@ -18,6 +20,7 @@ id containerLoginCard
 id createBtn
 id forgottenBtn
 id guideLineHorizontal
+id loginAlert
 id loginInput
 id loginLabel
 id main
@@ -29,14 +32,19 @@ layout activity_main
 layout fragment_login_card
 mipmap ic_launcher
 mipmap ic_launcher_round
+string alertEmptyFields
 string app_name
+string checkBoxPreference
 string checkBoxTitle
 string forgottenUnderlined
 string loginLabel
 string loginTitle
 string passwordLabel
+string preference_file_key
 string registerTitle
 string underlined_dynamic_text
+string userLogin
+string userPassword
 style Base.Theme.CommunionAndroid
 style Theme.CommunionAndroid
 xml backup_rules

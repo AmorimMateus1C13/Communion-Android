@@ -43,6 +43,7 @@
             android:layout_marginTop="8dp"
             android:inputType="textEmailAddress"
             android:hint="exemple@exemplo.com"
+            android:textAlignment="center"
             android:textSize="16sp"
             android:background="@drawable/radiusinput"
             app:layout_constraintTop_toBottomOf="@+id/loginLabel"
@@ -68,9 +69,25 @@
             android:layout_height="45dp"
             android:layout_marginTop="8dp"
             android:inputType="textPassword"
+            android:hint="********"
             android:textSize="16sp"
+            android:textAlignment="center"
             android:background="@drawable/radiusinput"
             app:layout_constraintTop_toBottomOf="@+id/passwordLabel"
+            />
+
+
+        <TextView
+            android:id="@+id/loginAlert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/alertError"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/passwordInput"
             />
 
         <CheckBox
@@ -78,12 +95,13 @@
             android:layout_width="wrap_content"
             android:layout_height="45dp"
             android:layout_marginTop="12dp"
+            android:buttonTint="#F4EEEE"
+
             android:text="@string/checkBoxTitle"
-            android:textSize="14sp"
             android:textColor="@color/white"
-            app:layout_constraintTop_toBottomOf="@+id/passwordInput"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
-            />
+            app:layout_constraintTop_toBottomOf="@+id/loginAlert" />
 
         <android.widget.Button
             android:id="@+id/forgottenBtn"
@@ -91,26 +109,13 @@
             android:layout_height="45dp"
             android:textAllCaps="false"
             android:layout_marginTop="12dp"
-            android:textSize="14sp"
+            android:textSize="16sp"
             android:text="@string/forgottenUnderlined"
             android:textColor="@color/white"
             android:background="@android:color/transparent"
-            app:layout_constraintTop_toBottomOf="@+id/passwordInput"
+            app:layout_constraintTop_toBottomOf="@+id/loginAlert"
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginHorizontal="12dp"
-            />
-
-        <android.widget.Button
-            android:id="@+id/createBtn"
-            android:background="@drawable/secundarybtn"
-            android:layout_width="match_parent"
-            android:layout_height="45dp"
-            android:layout_marginTop="12dp"
-            android:textSize="16sp"
-            android:textColor="@color/secondBackGround"
-            android:text="@string/registerTitle"
-            app:layout_constraintTop_toBottomOf="@+id/rememberBtn"
-            tools:layout_editor_absoluteX="162dp"
             />
 
         <android.widget.Button
@@ -122,9 +127,23 @@
             android:textSize="16sp"
             android:textColor="@color/white"
             android:text="@string/loginTitle"
-            app:layout_constraintTop_toBottomOf="@+id/createBtn"
+            app:layout_constraintTop_toBottomOf="@+id/forgottenBtn"
             tools:layout_editor_absoluteX="162dp"
             />
+
+        <android.widget.Button
+            android:id="@+id/createBtn"
+            android:background="@drawable/secundarybtn"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="12dp"
+            android:textSize="16sp"
+            android:textColor="@color/secondBackGround"
+            android:text="@string/registerTitle"
+            app:layout_constraintTop_toBottomOf="@+id/nextBtn"
+            tools:layout_editor_absoluteX="162dp"
+            />
+
 
 
 

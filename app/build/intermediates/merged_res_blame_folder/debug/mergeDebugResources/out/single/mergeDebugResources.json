@@ -28,6 +28,10 @@
         "source": "/Users/mateusamorim/.gradle/daemon/8.4/com.example.communion_android.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "/Users/mateusamorim/.gradle/daemon/8.4/com.example.communion_android.app-debug-31:/drawable_alert_field.xml.flat",
+        "source": "/Users/mateusamorim/.gradle/daemon/8.4/com.example.communion_android.app-main-33:/drawable/alert_field.xml"
+    },
+    {
         "merged": "/Users/mateusamorim/.gradle/daemon/8.4/com.example.communion_android.app-debug-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "/Users/mateusamorim/.gradle/daemon/8.4/com.example.communion_android.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
@@ -78,6 +82,10 @@
     {
         "merged": "/Users/mateusamorim/.gradle/daemon/8.4/com.example.communion_android.app-debug-31:/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "/Users/mateusamorim/.gradle/daemon/8.4/com.example.communion_android.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/mateusamorim/.gradle/daemon/8.4/com.example.communion_android.app-debug-31:/layout_fragment_alert_card.xml.flat",
+        "source": "/Users/mateusamorim/.gradle/daemon/8.4/com.example.communion_android.app-main-33:/layout/fragment_alert_card.xml"
     },
     {
         "merged": "/Users/mateusamorim/.gradle/daemon/8.4/com.example.communion_android.app-debug-31:/drawable_ic_launcher_background.xml.flat",

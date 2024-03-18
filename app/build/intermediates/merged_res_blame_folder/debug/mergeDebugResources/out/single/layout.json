@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/mateusamorim/.gradle/daemon/8.4/com.example.communion_android.app-mergeDebugResources-30:/layout/fragment_alert_card.xml",
+        "source": "/Users/mateusamorim/.gradle/daemon/8.4/com.example.communion_android.app-main-33:/layout/fragment_alert_card.xml"
+    },
+    {
         "merged": "/Users/mateusamorim/.gradle/daemon/8.4/com.example.communion_android.app-mergeDebugResources-30:/layout/fragment_login_card.xml",
         "source": "/Users/mateusamorim/.gradle/daemon/8.4/com.example.communion_android.app-main-33:/layout/fragment_login_card.xml"
     },
